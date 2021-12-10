@@ -14,30 +14,21 @@ import Videos from './navbar/Videos';
 import SearchSection from './SearchSection/SearchSection';
 import MainPictures from './PicturesSection/MainPictures'
 import CtaSection from './InfoSection/CtaSection'
+import Button from './Header/Button'
 
 export default function App(){
   return(
     <div>
         <nav>
-        <PixebayLogo/>
-        <Photos/>
-        <Illustrations/>
-        <Vectors/>
-        <Videos/>
-        <Music/>
-        <SoundEffects/>
-        <Explore/>
-        <Login/>
-        <Join/>
-        <Upload/>
+        <Button/>
       </nav>
-      <section>
+      {/* <section>
         <SearchSection/>
-      </section>
-      <main>
+      </section> */}
+      {/* <main>
         <MainPictures/>
         <CtaSection/>
-      </main>
+      </main> */}
     </div>
   )
 }
