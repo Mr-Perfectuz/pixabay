@@ -1,21 +1,18 @@
 import React from 'react';
-import Button  from './Button';
 
-const Gallery => {
+const Gallery = () =>{
     return(
-        <header>
-            <div>
-                <a href="#">Logo</a>
-                <ul>
-                    <li className="nav-item"><a className="nav-link" href="#">Home</a></li>
-                    <li className="nav-item"><a className="nav-link" href="#">About</a></li>
-                    <li className="nav-item"><a className="nav-link" href="#">Gallery</a></li>
-                    <li className="nav-item"><a className="nav-link" href="#">Contact</a></li>
-                </ul>
-                <Button></Button>
-            </div>
+        <header className="d-flex align-center justify-content-between">
+            .
+            <a href="#home">Logo</a>
+            <ul className="nav nav-pills">
+                <li className="nav-item"><a className="nav-link " href="#home">Home</a></li>
+                <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
+                <li className="nav-item"><a className="nav-link" href="#gallery">Gallery</a></li>
+                <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
+            </ul>
         </header>
-        )
-    }
+    )
+}
 
-    export default Gallery;
+export default Gallery;

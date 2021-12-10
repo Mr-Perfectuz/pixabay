@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
-import AppJs from './components/App';
-import Button from './components/Header/Button';
+import App from './components/App';
+import './components/Main/style.css';
+
 
 ReactDOM.render(
-    <Button/>,
+    <App/>,
   document.getElementById('root')
 );
 reportWebVitals();
