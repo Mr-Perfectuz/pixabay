@@ -12,9 +12,9 @@ const Gallery = () =>{
                 <li className="nav-item"><a className="nav-link" href="#gallery">Gallery</a></li>
                 <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
             </ul>
-                <Button status="primary"/>
-                <Button status="danger"/>
-                <Button status="warning"/>
+                <Button status="primary" title="Sign Up"/>
+                <Button status="dark"title="Login"/>
+                <Button status="warning" />
             </div>
 
         </header>

@@ -1,11 +1,10 @@
 import React from 'react'
 
 export default function Button(props) {
-    console.log(props);
-    const{status} = props;
+    const{status, title="Download"} = props;
     return (
         <button className={`btn btn-${status}  btn-info rounded`}>
-            Download
+            {title}
         </button>
     )
 }
